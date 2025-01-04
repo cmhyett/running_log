@@ -1,7 +1,7 @@
 # TODO plot pace on graph
 # TODO fix effort calculation
 # TODO allow easy aggregation of week/month/year data
-#+PLOT: set:"term pngcairo size 500,300" title:"Mileage" ind:1 deps:(2) type:2d with:histograms set:"yrange [0:5]" set:"xrange[-0.5:6.5]" file:"./imgs/jan1.png"
+#+PLOT: set:"term pngcairo size 500,300" title:"Mileage" ind:1 deps:(2) type:2d with:histograms set:"yrange [0:10]" set:"xrange[-0.5:6.5]" file:"./imgs/jan1.png"
 | Date       | Mileage | Elevation gain | Time       | Effort |  Pace | Grade (%) | Surface  | Avg Hr | Elevation (ft) |
 |------------+---------+----------------+------------+--------+-------+-----------+----------+--------+----------------|
 | 1/1        |     3.0 |            237 | 0@ 32' 22" |      6 | 10.79 |      2.99 | Trail    |    162 |           7300 |
